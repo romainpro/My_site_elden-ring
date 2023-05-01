@@ -2,7 +2,7 @@
 
 
 
-// -------------------creeration des carte ------------------------
+// -------------------creation des carte ------------------------
 function newCard(name,image,){
     return` <li class="profil-card">
     <img src="${image}" alt="image du personage " class="profil-image">
@@ -25,13 +25,13 @@ document.getElementById("gallery").innerHTML+=newCard(`guerrier`,`media/images/e
 document.getElementById("gallery").innerHTML+=newCard(`Mendiant`,`media/images/elden-ring-character-wretch-full.webp`);
 
 
-const cardActive = document.querySelector(".profil-card");
+// const cardActive = document.querySelector(".profil-card");
 
-cardActive.addEventListener("click",active);
+// cardActive.addEventListener("click",active);
 
-function active(){
-    cardActive.classList.toggle("active");
-}
+// function active(){
+//     cardActive.classList.toggle("active");
+// }
 
 
 
