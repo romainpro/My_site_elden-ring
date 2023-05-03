@@ -115,3 +115,14 @@ video,
 canvas{
     position: top;
 }
+@media screen and (max-width:1290px){
+    
+    h1.text{
+        
+        font-size:1.5rem;
+        text-shadow: none;
+
+    }
+}
+
+
